@@ -9,6 +9,10 @@ body {
   background-color: #000;
 }
 
+p {
+  font-size: 15px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -18,8 +22,9 @@ body {
 }
 
 .main {
+  display: block;
   width: 400px;
-  height: 375px;
+  height: 400px;
   background-color: hsl(216, 12%, 8%);
   padding: 25px;
   border-radius: 10px;
@@ -35,12 +40,12 @@ body {
   margin-bottom: 20px;
 }
 
-.container h1 {
+.main h1 {
   color: #fff;
   margin-bottom: 10px;
 }
 
-.container p {
+.main p {
   color: hsl(217, 12%, 63%);
   line-height: 1.5;
   margin-bottom: 20px;
@@ -84,4 +89,53 @@ body {
 .numbers div:hover {
   background-color:hsl(25, 97%, 53%);
   transition: all .5s;
+}
+
+.main-thank-you {
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(216, 12%, 8%);
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-thank-you h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+
+.summary {
+  color:  hsl(217, 12%, 63%);
+  text-align: center;
+  line-height: 1.75;
+
+}
+
+.thank-you-img-container {
+  margin-bottom: 25px;
+}
+
+.rating {
+  background-color: hsl(213, 19%, 18%);
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin-bottom: 35px;
+ 
+}
+
+.rating {
+ color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
 }

@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- displays site properly based on user's device -->
 		<link rel="stylesheet" href="./style.css" />
-  
+
 		<link
 			rel="icon"
 			type="image/png"
@@ -34,7 +34,7 @@
 	<body>
 		<!-- Rating state start -->
 		<div class="container">
-			<div class="main">
+			<div class="main" class="show" class="hidden">
 				<div class="star-container">
 					<img class="star" src="./images/icon-star.svg" />
 				</div>
@@ -58,10 +58,21 @@
 
 				<!-- You selected
 				 Add rating here -->
-				<!-- out of 5 Thank you! We appreciate you taking the time to give a rating.
-				If you ever need more support, don’t hesitate to get in touch! -->
+				<!-- out of 5 Thank you!  -->
 
 				<!-- Thank you state end -->
+			</div>
+
+			<div class="main-thank-you" >
+				<div class="thank-you-img-container">
+					<img src="./images/illustration-thank-you.svg" />
+				</div>
+				<p class="rating">You selected 4 out of 5</p>
+				<h1>Thank you!</h1>
+				<p class="summary">
+					We appreciate you taking the time to give a rating. If you ever need
+					more support, don’t hesitate to get in touch!
+				</p>
 			</div>
 		</div>
 
@@ -71,6 +82,6 @@
 				>Frontend Mentor</a
 			>. Coded by <a href="#">Your Name Here</a>.
 		</div>
-    <script src="script.js"></script>
+		<script src="script.js"></script>
 	</body>
 </html>
